@@ -43,7 +43,6 @@ replay_pid*
 nohup.out
 
 # VISUAL STUDIO CODE
-# Visual Studio Code
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
