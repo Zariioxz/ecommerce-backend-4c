@@ -1,13 +1,13 @@
 insert into categoria (nome, descricao) values ('Informática','Produtos de informática');
 insert into categoria (nome, descricao) values ('Livro','Biblioteca');
-insert into categoria (nome, descricao) values ('Computador','Vários computadores');
+insert into categoria (nome, descricao) values ('Hospital','Lugar onde cura os feridos');
 insert into categoria (nome, descricao) values ('Restaurante','Tipos variados de comida');
 insert into categoria (nome, descricao) values ('Academia','Atividade física');
-insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Código Limpo','Livro do autor Robert C. Martin', 100.00, 20, 1);
-insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Geforce RTX 4060','Placa de vídeo NVIDIA', 1800.00, 5, 2);
-insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Pizza calabresa','Pizza da pizzaria Tropical', 70.00, 10, 3);
-insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Ryzen 7 7800x3d','Processador Ryzen', 2000.00, 15, 4);
-insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Kingston DDR4 Fury 16gb','16gb de memória ram DDR4 da marca Kingston ', 50000.00, 1, 5);
+insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Código Limpo','Livro do autor Robert C. Martin', 100.00, 20, 2);
+insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Geforce RTX 4060','Placa de vídeo NVIDIA', 1800.00, 5, 1);
+insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Pizza calabresa','Pizza da pizzaria Tropical', 70.00, 10, 4);
+insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Ryzen 7 7800x3d','Processador Ryzen', 2000.00, 15, 1);
+insert into produto (nome, descricao, preco, estoque, categoria_id) values ('Kingston DDR4 Fury 16gb','16gb de memória ram DDR4 da marca Kingston ', 50000.00, 1, 1);
 insert into cliente (nome, email, telefone) values ('Pedro','saddas1@gmail.com','994524949');
 insert into cliente (nome, email, telefone) values ('Jonas','saddas2@gmail.com','994524948');
 insert into cliente (nome, email, telefone) values ('João','saddas3@gmail.com','994524947');
@@ -23,9 +23,9 @@ insert into item_pedido (quantidade, valor_unitario, pedido_id, produto_id) valu
 insert into item_pedido (quantidade, valor_unitario, pedido_id, produto_id) values (10, 10.00, 3, 2);
 insert into item_pedido (quantidade, valor_unitario, pedido_id, produto_id) values (2, 500.00, 4, 4);
 insert into item_pedido (quantidade, valor_unitario, pedido_id, produto_id) values (20, 5.00, 5, 3);
-insert into pagamento (valor, data, status, tipo, pedido_id) values (10.00, '2026-09-03 21:01:00', 'APROVADO', 'PIX', 1);
-insert into pagamento (valor, data, status, tipo, pedido_id) values (11.00, '2026-09-03 21:02:00', 'REPROVADO', 'PIX', 2);
-insert into pagamento (valor, data, status, tipo, pedido_id) values (12.00, '2026-09-03 21:03:00', 'APROVADO', 'CRÉDITO', 3);
-insert into pagamento (valor, data, status, tipo, pedido_id) values (13.00, '2026-09-03 21:04:00', 'APROVADO', 'PIX', 4);
-insert into pagamento (valor, data, status, tipo, pedido_id) values (14.00, '2026-09-03 21:05:00', 'APROVADO', 'DÉBITO', 5);
+insert into pagamento (valor, data, status, tipo, pedido_id) values (50.00, '2026-09-03 21:01:00', 'APROVADO', 'PIX', 1);
+insert into pagamento (valor, data, status, tipo, pedido_id) values (80.00, '2026-09-03 21:02:00', 'REPROVADO', 'PIX', 2);
+insert into pagamento (valor, data, status, tipo, pedido_id) values (10.00, '2026-09-03 21:03:00', 'APROVADO', 'CRÉDITO', 3);
+insert into pagamento (valor, data, status, tipo, pedido_id) values (500.00, '2026-09-03 21:04:00', 'APROVADO', 'PIX', 4);
+insert into pagamento (valor, data, status, tipo, pedido_id) values (5.00, '2026-09-03 21:05:00', 'APROVADO', 'DÉBITO', 5);
 
